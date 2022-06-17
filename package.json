@@ -1,0 +1,24 @@
+{
+  "name": "@lorehub/dialogue-schema",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --project tsconfig.prod.json",
+    "watch": "tsc --project tsconfig.prod.json --watch",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "author": "LoreHub",
+  "license": "MIT",
+  "devDependencies": {
+    "c8": "^7.11.3",
+    "typescript": "^4.7.3",
+    "vitest": "^0.15.1"
+  },
+  "bugs": {
+    "url": "https://github.com/lore-hub-app/dialogue-schema/issues"
+  },
+  "homepage": "https://github.com/lore-hub-app/dialogue-schema#readme",
+  "description": "LoreHub dialogue schema library TypeScript/Javascript"
+}
